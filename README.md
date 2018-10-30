@@ -66,13 +66,7 @@
 60	61	0.104	2.50
 61	62	4.235	50.40
 62 rows × 3 columns
--------------------------------------------------
-X = data[['BrainWeight']].values
-Y = data[['BodyWeight']].values
-------------------------------------------------
-model = Sequential()
-model.add(Dense(1, input_dim=1))
-model.summary()
+
 
 
 ![kerasssss 1](https://user-images.githubusercontent.com/16944756/47698101-9f2e6380-dbd3-11e8-82cf-bc6572151f93.png)
