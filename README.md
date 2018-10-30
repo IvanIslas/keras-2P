@@ -72,19 +72,11 @@ Y = data[['BodyWeight']].values
 model = Sequential()
 model.add(Dense(1, input_dim=1))
 model.summary()
-------------------------------------------------
-_________________________________________________________________
-Layer (type)                 Output Shape              Param #   
-=================================================================
-dense_1 (Dense)              (None, 1)                 2         
-=================================================================
-Total params: 2
-Trainable params: 2
-Non-trainable params: 0
-------------------------------------------------------------
-model.compile(Adam(lr=0.8), 'mean_squared_error')
-model.fit(X, Y, epochs=50)
------------------------------------------------------------
+
+
+![kerasssss 1](https://user-images.githubusercontent.com/16944756/47698101-9f2e6380-dbd3-11e8-82cf-bc6572151f93.png)
+
+
 Epoch 1/50
 62/62 [==============================] - 0s 7ms/step - loss: 5943271.6879
 Epoch 2/50
