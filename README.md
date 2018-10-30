@@ -209,4 +209,4 @@ plt.plot(X, Y_predict, color='red', linewidth=3)
 plt.show()
 
 ------------------------------------------------------------------------
-
+![keras1](https://user-images.githubusercontent.com/16944756/47697902-b882e000-dbd2-11e8-8624-f0cb844b0e50.png)
