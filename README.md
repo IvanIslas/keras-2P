@@ -1,17 +1,7 @@
 # keras-2P
 
--------------------------------------------------------------------
-from keras.models import Sequential
-from keras.layers import Dense
-from keras.optimizers import Adam, SGD
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-------------------------------------------------------------------
-data = pd.read_csv("brain-body.csv", delimiter=",")
-data
+![kerasssss 1](https://user-images.githubusercontent.com/16944756/47698021-4068ea00-dbd3-11e8-83f4-26bb6a5c439d.png)
 
-----------------------------------------------------------------
 	Index	BrainWeight	BodyWeight
 0	1	3.385	44.50
 1	2	0.480	15.50
