@@ -177,18 +177,9 @@ Epoch 49/50
 62/62 [==============================] - 0s 169us/step - loss: 112125.5817
 Epoch 50/50
 62/62 [==============================] - 0s 169us/step - loss: 113247.3936
+
+
 <keras.callbacks.History at 0x16b31d3f0f0>
------------------------------------------------------------------------------
-Y_predict = model.predict(X)
 
-----------------------------------------------------
-data.plot(kind='scatter',
-          x = 'BrainWeight',
-          y = 'BodyWeight',
-          title='Brain Weight and Body Weight Regression Plot')
-
-plt.plot(X, Y_predict, color='red', linewidth=3)
-plt.show()
-
-------------------------------------------------------------------------
+![kerasssss 1](https://user-images.githubusercontent.com/16944756/47698158-def54b00-dbd3-11e8-833f-2e58a3051cf2.png)
 ![keras1](https://user-images.githubusercontent.com/16944756/47697902-b882e000-dbd2-11e8-8624-f0cb844b0e50.png)
